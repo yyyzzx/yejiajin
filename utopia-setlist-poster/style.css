@@ -13,7 +13,6 @@ body {
 h1 {
     font-family: "DM Sans", sans-serif;
     font-size: 2vw;
-    line-height: 2vw;
     word-spacing: 0px;
     font-weight: 600;
     text-transform: uppercase;
@@ -141,13 +140,6 @@ input[type=button] {
     /* border-radius: 30px;
     border: 2px black solid; */
     transition: 0.5s;
-}
-
-input[type=button]:hover {
-    background-color: black;
-    color: white;
-    transition: 0.5s;
-    cursor: pointer;
 }
 
 footer {
