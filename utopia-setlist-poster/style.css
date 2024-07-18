@@ -4,11 +4,16 @@ body {
 
 .heading-container {
     margin: 30px 20px 30px 20px;
+    /* padding: 30px 0;
+    position: sticky; */
+    /* top: 0px; */
+    /* background-color: rgb(240, 240, 240); */
 }
 
 h1 {
     font-family: "DM Sans", sans-serif;
     font-size: 2vw;
+    line-height: 2vw;
     word-spacing: 0px;
     font-weight: 600;
     text-transform: uppercase;
@@ -58,6 +63,31 @@ header li {
 
 .text-container {
     margin: 0 45px;
+    width: calc(100vw - 90px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.img-container {
+    width: calc(100vw - 90px);
+    margin: 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: calc(50vw - 50px);
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.title, .description {
+    width: calc(50vw - 15px);
 }
 
 p {
@@ -78,7 +108,6 @@ h2 {
     margin: 2px 0;
     display: inline-block;
     text-align: left;
-    transition: 0.5s;
 }
 
 @media (max-width: 400px) {
@@ -93,10 +122,8 @@ h2 {
     background-color: white;
     padding: 10px 0;
     margin-bottom: 30px;
-}
-
-#projects, #all, #graphic, #print, #web  {
-    /* margin-right: 1.2vw; */
+    /* position: sticky;
+    top: calc(60px + 2vw); */
 }
 
 input[type=button] {
@@ -121,4 +148,10 @@ input[type=button]:hover {
     color: white;
     transition: 0.5s;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
 }
