@@ -168,7 +168,7 @@ footer {
         padding: 3px 5px;
         margin: 8px 2px;
     }
-    p, footer p, .table p {
+    p, footer p, .table p, .col1 p, .col2 p {
         font-size: 19px;
     }
     footer {
@@ -181,12 +181,15 @@ footer {
     }
     .title, .description {
         width: auto;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .img-container {
         flex-direction: column;
     }
     .left, .right {
         width: auto;
+    }
+    .col1 {
+        width: calc((100vw - (13vw - 30px)) / 3);
     }
 }
