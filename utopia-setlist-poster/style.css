@@ -185,8 +185,8 @@ footer {
     }
 
     
-    .title p, .description p {
-        font-family: "DM sans", sans-serif;
+    .title p, .col1 p, .col2 p {
+        font-family: "DM Sans", sans-serif;
         text-align: left;
         font-size: 20px;
         color: black;
