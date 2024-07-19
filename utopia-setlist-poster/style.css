@@ -71,7 +71,7 @@ header li {
 
 .img-container {
     width: calc(100vw - 90px);
-    margin: 0 45px;
+    margin: 0 45px 30px 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -144,6 +144,15 @@ input[type=button] {
 
 footer {
     display: flex;
-    justify-content: center;
-    margin: 10px 0;
+    justify-content: start;
+    margin: 0 0 30px 45px;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+}
+
+.col1 {
+    width: calc((50vw - 15px) / 4);
 }
