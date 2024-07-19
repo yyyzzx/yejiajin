@@ -82,10 +82,10 @@ p {
 h2 {
     font-family: "DM sans", sans-serif;
     font-optical-sizing: normal;
-    font-weight: 560;
+    font-weight: 650;
     padding: 2px 1px;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 24px;
     margin: 2px 0;
     display: inline-block;
     text-align: left;
@@ -149,8 +149,8 @@ footer {
         font-optical-sizing: normal;
         font-weight: 800;
         padding: 2px 1px;
-        font-size: 4vw;
-        line-height: 32px;
+        font-size: 4.2vw;
+        line-height: 40px;
         margin: 2px 0;
     }
     .buttons {
@@ -189,8 +189,8 @@ footer {
     .col1 {
         width: calc((100vw - (13vw - 30px)) / 3);
     }
-    .description p, p, .table p, .col1 p, .col2 p {
-        font-size: 27px;
+    .description p, p, .table p, .col1 p, .col2 p, .title p {
+        font-size: 23px;
     }
     /* .title p {
         font-size: 19px;
