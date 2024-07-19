@@ -187,12 +187,9 @@ footer {
         width: auto;
     }
     .col1 {
-        width: calc((100vw - (13vw - 30px)) / 3);
+        width: calc((100vw - (13vw - 30px)) / 4);
     }
     .description p, p, .table p, .col1 p, .col2 p, .title p {
         font-size: 23px;
     }
-    /* .title p {
-        font-size: 19px;
-    } */
 }
