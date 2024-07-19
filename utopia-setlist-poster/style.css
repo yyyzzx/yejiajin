@@ -172,7 +172,7 @@ footer {
     }
     .title, .description {
         width: auto;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
     .img-container {
         flex-direction: column;
@@ -183,14 +183,13 @@ footer {
     .col1 {
         width: calc((100vw - (13vw - 30px)) / 4);
     }
-    .title p {
-        font-size: 1.1rem;
-    }
+
     
-    .description p{
+    .title p, .description p {
         font-family: "DM sans", sans-serif;
         text-align: left;
-        font-size: 1.1rem;
+        font-size: 15px;
         color: black;
+        padding: 0 1px;
     }
 }
