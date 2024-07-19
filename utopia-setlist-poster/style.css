@@ -134,7 +134,7 @@ footer {
     width: calc((50vw - 15px) / 4);
 }
 
-@media (max-width: 1030px) {
+@media screen and (max-width: 1030px) {
     .heading-container {
         margin: 30px 20px;
     }
@@ -147,10 +147,10 @@ footer {
     h2 {
         font-family: "DM sans", sans-serif;
         font-optical-sizing: normal;
-        font-weight: 560;
+        font-weight: 600;
         padding: 2px 1px;
-        font-size: 32px;
-        line-height: 38px;
+        font-size: 27px;
+        line-height: 32px;
         margin: 2px 0;
     }
     .buttons {
@@ -189,7 +189,10 @@ footer {
     .col1 {
         width: calc((100vw - (13vw - 30px)) / 3);
     }
-    p, footer p, .table p, .col1 p, .col2 p {
+    .description p, p, .table p, .col1 p, .col2 p {
+        font-size: 27px;
+    }
+    .title p {
         font-size: 19px;
     }
 }
