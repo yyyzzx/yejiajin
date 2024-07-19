@@ -184,8 +184,7 @@ footer {
         width: calc((100vw - (13vw - 30px)) / 4);
     }
 
-    
-    .title p, .col1 p, .col2 p {
+    .description p, .col1 p, .col2 p {
         font-family: "DM Sans", sans-serif;
         text-align: left;
         font-size: 20px;
