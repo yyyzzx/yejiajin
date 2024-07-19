@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: "DM Sans", sans-serif;
-    font-size: 2vw;
+    font-size: clamp(25pt, 2.2vw, 45pt);
     word-spacing: 0px;
     font-weight: 600;
     text-transform: uppercase;
@@ -40,24 +40,6 @@ header li {
     background-color: white;
     border: 2px black dotted;
     padding: 13px;
-}
-
-.card {
-    position: relative;
-    /* width: 28.5vw;
-    height: 19vw; */
-    width: 45vw;
-    height: 30vw;
-    background-color: white;
-    margin: 52px 22px;
-    border-radius: 7px;
-    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); */
-    transition: 0.5s;
-    display: block;
-}
-
-.card:hover {
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .text-container {
@@ -109,11 +91,6 @@ h2 {
     text-align: left;
 }
 
-@media (max-width: 400px) {
-    h1 {
-        font-size: 50pt;
-    }
-}
 .buttons {
     display: flex;
     align-items: center;
@@ -155,4 +132,61 @@ footer {
 
 .col1 {
     width: calc((50vw - 15px) / 4);
+}
+
+@media (max-width: 1030px) {
+    .heading-container {
+        margin: 30px 20px;
+    }
+    h1 {
+        font-size: 7vw;
+        text-align: left;
+        margin-left: calc(6.5vw - 15px);
+        font-weight: 700;
+    }
+    h2 {
+        font-family: "DM sans", sans-serif;
+        font-optical-sizing: normal;
+        font-weight: 560;
+        padding: 2px 1px;
+        font-size: 27px;
+        line-height: 35px;
+        margin: 2px 0;
+    }
+    .buttons {
+        padding-left: calc(13vw / 2);
+        justify-content: start;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 20px 0;
+        margin-bottom: 30px;
+    }
+    input[type=button] {
+        padding: 2px 1px;
+        font-size: 27px;
+        padding: 3px 5px;
+        margin: 8px 2px;
+    }
+    p, footer{
+        font-size: 19px;
+    }
+    footer {
+        margin: 10px 0 40px calc(6.5vw - 15px);
+    }
+    .text-container {
+        flex-direction: column;
+        margin: 0 calc(6.5vw + 5px);
+        width: auto;
+    }
+    .title, .description {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .img-container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: auto;
+    }
 }
