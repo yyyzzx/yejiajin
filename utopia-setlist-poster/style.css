@@ -2,6 +2,10 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+html {
+    font-size: 100%;
+}
+
 .heading-container {
     margin: 30px 20px 30px 20px;
     /* padding: 30px 0;
@@ -17,23 +21,6 @@ h1 {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-}
-
-header {
-    height:80px;
-    width: 100%;
-    z-index: 2;
-    align-items: center;
-    text-align: center;
-}
-
-header li {
-    display: inline;
-    color: black;
-    margin: 0 8vw;
-    font-family: "Optima", sans-serif;
-    font-size: 11pt;
-    vertical-align: middle;
 }
 
 .homepage {
@@ -71,12 +58,19 @@ header li {
     width: calc(50vw - 15px);
 }
 
-p {
+.title p, .description p {
     font-family: "DM sans", sans-serif;
     text-align: left;
     font-size: 13px;
     color: black;
     padding: 0 1px;
+}
+
+.description {
+    font-family: "DM sans", sans-serif;
+    text-align: left;
+    font-size: 13px;
+    color: black;
 }
 
 h2 {
@@ -189,7 +183,14 @@ footer {
     .col1 {
         width: calc((100vw - (13vw - 30px)) / 4);
     }
-    .description p, p, .table p, .col1 p, .col2 p, .title p {
-        font-size: 23px;
+    .title p {
+        font-size: 1.1rem;
+    }
+    
+    .description p{
+        font-family: "DM sans", sans-serif;
+        text-align: left;
+        font-size: 1.1rem;
+        color: black;
     }
 }
