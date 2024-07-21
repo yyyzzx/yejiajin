@@ -182,7 +182,7 @@ footer {
     }
     .description {
         width: auto;
-        margin-bottom: 30px;
+        margin: 30px 0;
     }
     .table {
         margin-top: 10px;
@@ -208,7 +208,7 @@ footer {
         padding: 0 1px;
     } */
 
-    .title p, .description p, .col1 p, .col2 p, footer p {
+    .title p, .description p, .col1 p, .col2 p, footer p, p {
         font-family: "DM Sans", sans-serif;
         text-align: left;
         font-size: 25px;
