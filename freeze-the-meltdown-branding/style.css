@@ -38,12 +38,16 @@ h1 {
     margin-bottom: 30px;
 }
 
-.img-container {
+.img-container, .img-container-col {
     width: calc(100vw - 90px);
     margin: 0 45px 30px 45px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.img-container-col {
+    flex-direction: column;
 }
 
 .left, .right {
