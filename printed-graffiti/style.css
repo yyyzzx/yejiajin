@@ -131,7 +131,7 @@ footer {
 
 @media screen and (max-width: 1030px) {
     .heading-container {
-        margin: 0 0px 60px 0px;
+        /* margin: 0 0px 60px 0px; */
         padding: 30px 20px 30px 20px;
         border-bottom: 2px black solid;
         position: sticky;
