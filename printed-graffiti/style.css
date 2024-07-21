@@ -54,11 +54,11 @@ h1 {
     width: 100%;
 }
 
-.title, .description {
+.title, .description, .sub-title {
     width: calc(50vw - 15px);
 }
 
-.title p, .description p, footer p {
+.title p, .description p, footer p, .sub-title p {
     font-family: "DM sans", sans-serif;
     text-align: left;
     font-size: 13px;
@@ -176,6 +176,10 @@ footer {
         width: auto;
         margin-bottom: 100px;
     }
+    .sub-title {
+        width: auto;
+        margin-bottom: 30px;
+    }
     .description {
         width: auto;
         margin-bottom: 30px;
@@ -204,7 +208,7 @@ footer {
         padding: 0 1px;
     } */
 
-    .title p, .description p, .col1 p, .col2 p, footer {
+    .title p, .description p, .col1 p, .col2 p, footer p {
         font-family: "DM Sans", sans-serif;
         text-align: left;
         font-size: 25px;
