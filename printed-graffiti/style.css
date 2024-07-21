@@ -198,6 +198,9 @@ footer {
     .left, .right {
         width: auto;
     }
+    .left {
+        margin-top: 10px;
+    }
     /* .col1 {
         width: calc((100vw - (13vw - 30px)) / 4);
     } */
