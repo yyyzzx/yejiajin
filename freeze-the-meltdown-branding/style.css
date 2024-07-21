@@ -219,25 +219,12 @@ footer {
     .left {
         margin-top: 10px;
     }
-    /* .col1 {
-        width: calc((100vw - (13vw - 30px)) / 4);
-    } */
-
-/*     
-   .title p, .description p, .col1 p, .col2 p {
-        font-family: "DM Sans", sans-serif;
-        text-align: left;
-        font-size: 25px;
-        color: black;
-        padding: 0 1px;
-    } */
-
-    .title p, .description p, .col1 p, .col2 p, footer {
+    .title p, .description p, .col1 p, .col2 p, footer p, p {
         font-family: "DM Sans", sans-serif;
         text-align: left;
         font-size: 25px;
         color: black;
         padding: 0 1px;
         -webkit-text-size-adjust: none;
-        }
+    }
 }
