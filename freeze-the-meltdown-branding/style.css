@@ -58,7 +58,7 @@ h1 {
     width: calc(50vw - 15px);
 }
 
-.title p, .description p {
+.title p, .description p, footer p {
     font-family: "DM sans", sans-serif;
     text-align: left;
     font-size: 13px;
@@ -128,9 +128,16 @@ footer {
     width: calc((50vw - 15px) / 4);
 } */
 
+
 @media screen and (max-width: 1030px) {
     .heading-container {
-        margin: 30px 20px;
+        margin: 0 0px 60px 0px;
+        padding: 30px 20px 30px 20px;
+        border-bottom: 2px black solid;
+        position: sticky;
+        top: 0px;
+        background-color: rgb(240, 240, 240);
+        width: 100vw;
     }
     h1 {
         font-size: 7vw;
@@ -148,13 +155,7 @@ footer {
         margin: 2px 0;
     }
     .buttons {
-        padding-left: calc(13vw / 2);
-        justify-content: start;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        padding-top: 20px 0;
-        margin-bottom: 30px;
+        display: none;
     }
     input[type=button] {
         padding: 2px 1px;
@@ -163,19 +164,29 @@ footer {
         margin: 8px 2px;
     }
     footer {
-        margin: 10px 0 40px calc(6.5vw - 15px);
+        /* margin: 10px 0 40px calc(6.5vw - 15px); */
+        margin: 30px calc(6.5vw + 5px);
     }
     .text-container {
         flex-direction: column;
         margin: 0 calc(6.5vw + 5px);
         width: auto;
     }
-    .title, .description {
+    .title {
+        width: auto;
+        margin-bottom: 100px;
+    }
+    .description {
         width: auto;
         margin-bottom: 30px;
     }
+    .table {
+        margin-top: 10px;
+    }
     .img-container {
         flex-direction: column;
+        margin: 0 calc(6.5vw + 5px);
+        width: auto;
     }
     .left, .right {
         width: auto;
@@ -184,11 +195,21 @@ footer {
         width: calc((100vw - (13vw - 30px)) / 4);
     } */
 
-    .description p, .col1 p, .col2 p {
+/*     
+   .title p, .description p, .col1 p, .col2 p {
         font-family: "DM Sans", sans-serif;
         text-align: left;
-        font-size: 20px;
+        font-size: 25px;
         color: black;
         padding: 0 1px;
-    }
+    } */
+
+    .title p, .description p, .col1 p, .col2 p, footer {
+        font-family: "DM Sans", sans-serif;
+        text-align: left;
+        font-size: 25px;
+        color: black;
+        padding: 0 1px;
+        -webkit-text-size-adjust: none;
+        }
 }
