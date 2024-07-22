@@ -12,6 +12,7 @@ html {
     position: sticky; */
     /* top: 0px; */
     /* background-color: rgb(240, 240, 240); */
+    z-index: 1;
 }
 
 h1 {
@@ -40,14 +41,14 @@ h1 {
 .vedio-container {
     display: flex;
     width: calc(100vw - 90px);
-
+    z-index: 0;
     /* height: calc((100vw - 90px) * (315 / 560)); */
     /* margin-bottom: 5px; */
 }
 
 video {
-    position: relative;
-    background-color: black;
+    position:unset;
+
 }
 
 .subtitle-container {
@@ -74,7 +75,6 @@ video {
     justify-content: space-between;
     gap: 5px;
     flex-direction: column;
-    /* gap: 5px 0; */
     margin-bottom: 10px;
 }
 
@@ -230,6 +230,9 @@ footer {
         margin: 0 calc(6.5vw + 5px);
         width: auto;
         gap: 5px 0;
+    }
+    .vedio-container {
+        width: calc(100vw - (13vw + 10px));
     }
     .img-container {
         margin: 0;
