@@ -37,6 +37,11 @@ h1 {
     margin-bottom: 30px;
 }
 
+.vedio-container {
+    display: flex;
+    height: calc((100vw - 90px) * (315 / 560));
+}
+
 .subtitle-container {
     margin: 0 45px;
     width: calc(100vw - 90px);
@@ -45,9 +50,9 @@ h1 {
     margin-bottom: 30px; */
 }
 
-.img-container, .img-container-col {
+.img-container {
     width: calc(100vw - 90px);
-    margin: 0 45px 10px 45px;
+    /* margin: 0 45px 10px 45px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,6 +60,11 @@ h1 {
 }
 
 .img-container-col {
+    width: calc(100vw - 90px);
+    margin: 0 45px 10px 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
     flex-direction: column;
     /* gap: 5px 0; */
     margin-bottom: 10px;
@@ -212,6 +222,9 @@ footer {
         margin: 0 calc(6.5vw + 5px);
         width: auto;
         gap: 5px 0;
+    }
+    .img-container {
+        margin: 0;
     }
     .left, .right {
         width: auto;
