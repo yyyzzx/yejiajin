@@ -43,6 +43,11 @@ h1 {
     /* margin-bottom: 5px; */
 }
 
+video {
+    position: relative;
+    background-color: black;
+}
+
 .subtitle-container {
     margin: 0 45px;
     width: calc(100vw - 90px);
