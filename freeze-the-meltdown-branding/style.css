@@ -39,7 +39,8 @@ h1 {
 
 .vedio-container {
     display: flex;
-    height: calc((100vw - 90px) * (315 / 560));
+    /* height: calc((100vw - 90px) * (315 / 560)); */
+    /* margin-bottom: 5px; */
 }
 
 .subtitle-container {
